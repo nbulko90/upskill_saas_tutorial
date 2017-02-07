@@ -28,8 +28,8 @@ h1, h2, h3 {
 .navbar, .home-callout {
     //Gradient provided by @_ighosh at uiGradients.com
     background: #000000; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #000000 , #53346D); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #53346D,  #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
 }
 
@@ -39,6 +39,17 @@ h1, h2, h3 {
     padding-top: 50px;
     padding-bottom: 100px;
     color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+    border: 2px solid white;
+    &:hover, &:focus{
+        background-color: #362246;
+    }
 }
 
 .navbar-brand {

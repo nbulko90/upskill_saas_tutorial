@@ -1,0 +1,17 @@
+********************************* 1. row *********************************
+                    id: 1
+                 email: test1@example.com
+    encrypted_password: $2a$11$fvD/f7SztI7RzR1yOQnx7ejDpLfEhvllNEBYGM3zi7kUPGU8jwdlO
+  reset_password_token: 
+reset_password_sent_at: 
+   remember_created_at: 
+         sign_in_count: 2
+    current_sign_in_at: 2017-02-18 21:31:44 UTC
+       last_sign_in_at: 2017-02-18 14:25:10 UTC
+    current_sign_in_ip: 24.186.152.37
+       last_sign_in_ip: 24.186.152.37
+            created_at: 2017-02-18 14:25:10 UTC
+            updated_at: 2017-02-18 21:31:44 UTC
+               plan_id: 2
+ stripe_customer_token: cus_A8qqgU8DUn20GW
+1 row in set

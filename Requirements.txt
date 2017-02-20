@@ -16,3 +16,10 @@ Stripe Integration
   and card token to Srtipe server and Stripe iwll cerate a subscription
   and send back customer token.  Rails should save customer token
   and user information to our database.  
+
+User Profiles
+* Each user should have one profile
+* User should see link to new profile form
+* User should be able to create and view their user profile
+* User profile should have profile picture
+* User should be able to view all user profiles
